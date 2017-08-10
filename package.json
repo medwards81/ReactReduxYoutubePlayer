@@ -2,7 +2,7 @@
   "name": "react-youtube-player",
   "version": "1.0.0",
   "engines": {
-	  "node": "7.6.0"
+    "node": "7.6.0"
   },
   "description": "A simple app for searching and playing youtube videos",
   "main": "index.js",
@@ -11,8 +11,8 @@
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
-	"postinstall": "webpack -p",
-	"start": "node server.js"
+    "postinstall": "webpack -p",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -32,14 +32,14 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "express": "^4.15.4",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "4.3.0",
     "react-router": "^2.0.1",
     "redux": "^3.0.4",
-    "youtube-api-search": "0.0.5",
-	"webpack": "^1.12.9",
-	"express": "^4.1.2"
+    "webpack": "^1.12.9",
+    "youtube-api-search": "0.0.5"
   }
 }
