@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "7.6.0",
-	"npm": "4.1.2"
+    "npm": "4.1.2"
   },
   "description": "A simple app for searching and playing youtube videos",
   "main": "index.js",
@@ -32,7 +32,10 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "babel-preset-stage-1": "^6.1.18",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
     "express": "^4.15.4",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
