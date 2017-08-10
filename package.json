@@ -2,7 +2,8 @@
   "name": "react-youtube-player",
   "version": "1.0.0",
   "engines": {
-    "node": "7.6.0"
+    "node": "7.6.0",
+	"npm": "4.1.2"
   },
   "description": "A simple app for searching and playing youtube videos",
   "main": "index.js",
